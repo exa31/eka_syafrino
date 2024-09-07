@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 export default function Page() {
   return (
 
-    <main>
+    <main className="overflow-x-hidden">
       <Header />
       <About />
       <LogoSkills />
