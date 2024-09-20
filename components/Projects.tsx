@@ -7,6 +7,7 @@ import MovieWeb from "./tabs/MovieWeb";
 import AppleWeb from "./tabs/AppleWeb";
 import { FaGithub } from "react-icons/fa";
 import { IoMdOpen } from "react-icons/io";
+import FinanceTrakers from "./tabs/FinanceTrakers";
 
 
 export default function Skills() {
@@ -72,6 +73,22 @@ export default function Skills() {
                         </div>
                     </div>
                     <MovieWeb />
+                </div>
+            ),
+        },
+        {
+            title: "Finance Trakers",
+            value: "Finance Trakers",
+            content: (
+                <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#0f172a] to-[#4a75db]">
+                    <div className="flex justify-between">
+                        <h3>Finance Trakers</h3>
+                        <div className="flex gap-4 ">
+                            <a target="_blank" className="hover:text-[#00ff0d] duration-300" href="https://ftraker-exa.vercel.app/"><IoMdOpen /></a>
+                            <a target="_blank" className="hover:text-[#00ff0d] duration-300" href="https://github.com/exa31/FtrakerExa"><FaGithub /></a>
+                        </div>
+                    </div>
+                    <FinanceTrakers />
                 </div>
             ),
         },
