@@ -46,7 +46,7 @@ const Logo1 = [
     },
     {
         name: "Next.js",
-        logo: "/images/Next.png",
+        logo: "/images/next.png",
     },
     {
         name: "Typescript",

@@ -4,7 +4,7 @@ import { CiLinkedin } from "react-icons/ci";
 
 export default function Contact() {
     return (
-        <section className="bg-white py-20 dark:bg-gray-900">
+        <section id="contact" className="bg-white py-20 dark:bg-gray-900">
             <div className="container px-6 py-12 mx-auto">
                 <div data-aos="zoom-out-up" className="text-center">
                     <h1 className="text-6xl font-bold mb-10"><span className="text-[#00ff0d]">C</span>ontact me</h1>
