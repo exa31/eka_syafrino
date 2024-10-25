@@ -8,6 +8,7 @@ import AppleWeb from "./tabs/AppleWeb";
 import { FaGithub } from "react-icons/fa";
 import { IoMdOpen } from "react-icons/io";
 import FinanceTrakers from "./tabs/FinanceTrakers";
+import CyberMobile from "./tabs/CyberMobile";
 
 
 export default function Skills() {
@@ -92,6 +93,22 @@ export default function Skills() {
                 </div>
             ),
         },
+        {
+            title: "Cyber mobile",
+            value: "Cyber mobile",
+            content: (
+                <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#0f172a] to-[#4a75db]">
+                    <div className="flex justify-between">
+                        <h3>Cyber Mobile</h3>
+                        <div className="flex gap-4 ">
+                            <a target="_blank" className="hover:text-[#00ff0d] duration-300" href="https://drive.google.com/file/d/1qv23JEh3JRxx2vdLU574mlgABVgO0OmN/view?usp=drive_link"><IoMdOpen /></a>
+                            <a target="_blank" className="hover:text-[#00ff0d] duration-300" href="https://github.com/exa31/cyber-mobile"><FaGithub /></a>
+                        </div>
+                    </div>
+                    <CyberMobile />
+                </div>
+            )
+        }
     ];
 
     return (

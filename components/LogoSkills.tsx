@@ -18,7 +18,7 @@ export default function LogoSkills() {
                 <div data-aos="fade-up" className="h-[30rem] mt-10 rounded-md flex flex-col antialiased bg-white dark:bg-[#0f172a] dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
                     <h1 className="text-6xl font-bold mb-10"><span className="text-[#00ff0d]">S</span>kills</h1>
                     <InfiniteMovingCards
-                        items={Logo1}
+                        items={Logo}
                         direction="right"
                         pauseOnHover={false}
                         speed="slow"
@@ -31,10 +31,18 @@ export default function LogoSkills() {
 
 
 
-const Logo1 = [
+const Logo = [
     {
         name: "Express.js",
         logo: "/images/express.png",
+    },
+    {
+        name: "Node.js",
+        logo: "/images/node.png",
+    },
+    {
+        name: "Flutter",
+        logo: "/images/flutter.png",
     },
     {
         name: "React.js",
@@ -59,6 +67,10 @@ const Logo1 = [
     {
         name: "MongoDB",
         logo: "/images/mongo.png",
+    },
+    {
+        name: "Dart",
+        logo: "/images/dart.png",
     },
     {
         name: "Mysql",
