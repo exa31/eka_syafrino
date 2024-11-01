@@ -1,4 +1,4 @@
-import { FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
 
@@ -14,8 +14,9 @@ export default function Contact() {
                     <p className="mt-3 text-gray-500 dark:text-gray-400">{"I'm always here to chat."}</p>
                 </div>
 
-                <div className="grid grid-cols-1 gap-12 mt-20 md:grid-cols-2 lg:grid-cols-3">
-                    <div data-aos="fade-right" className="flex flex-col items-center justify-center text-center">
+                <div className="grid grid-cols-1 gap-12 mt-20 md:grid-cols-2 lg:grid-cols-4">
+                    <div data-aos="fade-up"
+                        data-aos-anchor-placement="top-center" className="flex flex-col items-center justify-center text-center">
                         <span className="p-3 text-4xl text-stone-950 duration-500 hover:text-[#00ff0d] rounded-full bg-blue-100/80 dark:bg-gray-800">
                             <CiLinkedin />
                         </span>
@@ -24,15 +25,26 @@ export default function Contact() {
                         <a href="https://www.linkedin.com/in/eka-nazhifan-75b116293/" className="mt-2 text-blue-500 dark:text-white">Eka Syafrino Nazhifan</a>
                     </div>
 
-                    <div data-aos="fade-down" className="flex flex-col items-center justify-center text-center">
+                    <div data-aos="fade-up"
+                        data-aos-anchor-placement="top-center" className="flex flex-col items-center justify-center text-center">
                         <span className="p-3 text-4xl text-stone-950 duration-500 hover:text-[#00ff0d] rounded-full bg-blue-100/80 dark:bg-gray-800">
                             <MdOutlineEmail />
                         </span>
                         <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Email</h2>
-                        <a href="mailto:bloodsuker18@gmail.com" className="mt-2 text-blue-500 dark:text-white">bloodsuker18@gmail.com</a>
+                        <a href="mailto:ekaaa.jobs@gmail.com" className="mt-2 text-blue-500 dark:text-white">ekaaa.jobs@gmail.com</a>
                     </div>
 
-                    <div data-aos="fade-left" className="flex flex-col items-center justify-center text-center">
+                    <div data-aos="fade-up"
+                        data-aos-anchor-placement="top-center" className="flex flex-col items-center justify-center text-center">
+                        <span className="p-3 text-4xl text-stone-950 duration-500 hover:text-[#00ff0d] rounded-full bg-blue-100/80 dark:bg-gray-800">
+                            <FaGithub />
+                        </span>
+                        <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Github</h2>
+                        <a href="mailto:bloodsuker18@gmail.com" className="mt-2 text-blue-500 dark:text-white">exa31</a>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        data-aos-anchor-placement="top-center" className="flex flex-col items-center justify-center text-center">
                         <span className="p-3 text-4xl text-stone-950 duration-500 hover:text-[#00ff0d] rounded-full bg-blue-100/80 dark:bg-gray-800">
                             <FaWhatsapp />
                         </span>

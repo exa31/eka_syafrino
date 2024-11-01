@@ -80,4 +80,12 @@ const Logo = [
         name: "Vue.js",
         logo: "/images/vue.png",
     },
+    {
+        name: "PHP",
+        logo: "/images/php.png",
+    },
+    {
+        name: "Laravel",
+        logo: "/images/laravel.png",
+    }
 ];
