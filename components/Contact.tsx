@@ -40,7 +40,7 @@ export default function Contact() {
                             <FaGithub />
                         </span>
                         <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Github</h2>
-                        <a href="mailto:bloodsuker18@gmail.com" className="mt-2 text-blue-500 dark:text-white">exa31</a>
+                        <a href="https://github.com/exa31" className="mt-2 text-blue-500 dark:text-white">exa31</a>
                     </div>
 
                     <div data-aos="fade-up"
