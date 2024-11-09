@@ -16,7 +16,7 @@ export default function Contact() {
 
                 <div className="grid grid-cols-1 gap-12 mt-20 md:grid-cols-2 lg:grid-cols-4">
                     <div data-aos="fade-up"
-                        data-aos-anchor-placement="top-center" className="flex flex-col items-center justify-center text-center">
+                        className="flex flex-col items-center justify-center text-center">
                         <span className="p-3 text-4xl text-stone-950 duration-500 hover:text-[#00ff0d] rounded-full bg-blue-100/80 dark:bg-gray-800">
                             <CiLinkedin />
                         </span>
@@ -26,7 +26,7 @@ export default function Contact() {
                     </div>
 
                     <div data-aos="fade-up"
-                        data-aos-anchor-placement="top-center" className="flex flex-col items-center justify-center text-center">
+                        className="flex flex-col items-center justify-center text-center">
                         <span className="p-3 text-4xl text-stone-950 duration-500 hover:text-[#00ff0d] rounded-full bg-blue-100/80 dark:bg-gray-800">
                             <MdOutlineEmail />
                         </span>
@@ -35,7 +35,7 @@ export default function Contact() {
                     </div>
 
                     <div data-aos="fade-up"
-                        data-aos-anchor-placement="top-center" className="flex flex-col items-center justify-center text-center">
+                        className="flex flex-col items-center justify-center text-center">
                         <span className="p-3 text-4xl text-stone-950 duration-500 hover:text-[#00ff0d] rounded-full bg-blue-100/80 dark:bg-gray-800">
                             <FaGithub />
                         </span>
@@ -44,7 +44,7 @@ export default function Contact() {
                     </div>
 
                     <div data-aos="fade-up"
-                        data-aos-anchor-placement="top-center" className="flex flex-col items-center justify-center text-center">
+                        className="flex flex-col items-center justify-center text-center">
                         <span className="p-3 text-4xl text-stone-950 duration-500 hover:text-[#00ff0d] rounded-full bg-blue-100/80 dark:bg-gray-800">
                             <FaWhatsapp />
                         </span>
