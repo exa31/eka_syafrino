@@ -1,14 +1,8 @@
 "use client";
 
 import {Tabs} from "./ui/tabs";
-import FoodWeb from "./tabs/FoodWeb";
-import HijjaWeb from "./tabs/HijjaWeb";
-import MovieWeb from "./tabs/MovieWeb";
-import AppleWeb from "./tabs/AppleWeb";
 import {FaGithub} from "react-icons/fa";
 import {IoMdOpen} from "react-icons/io";
-import FinanceTrakers from "./tabs/FinanceTrakers";
-import CyberMobile from "./tabs/CyberMobile";
 import ImageTabs from "@/components/ui/ImageTabs";
 
 
