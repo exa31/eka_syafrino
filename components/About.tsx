@@ -1,7 +1,7 @@
 'use client';
 
 import Image from "next/image";
-import { useEffect } from "react";
+import {useEffect} from "react";
 import AOS from "aos";
 
 export default function About() {
@@ -19,14 +19,21 @@ export default function About() {
                     <div data-aos="fade-right" className="grow flex-1">
                         <h1 className="text-6xl font-bold mb-10"><span className="text-[#00ff0d]">A</span>bout</h1>
                         <p>
-                            I am a graduate of Computer and Networking Engineering from SMKN 1 Dukuhturi, graduated in 2024. I have an intermediate foundation in server workings and configuration, with expertise in ExpressJS. I have also completed the MERN class at Eduwork, where I gained proficiency in MongoDB, React JS, Express JS, and Node JS. As part of my learning journey, I have successfully developed and deployed a project landing page, an e-commerce website, and various other web applications. I am passionate about creating innovative solutions and constantly expanding my knowledge in the field of software development.
+                            Hi, I’m a graduate of Computer Network Engineering (TKJ) with a strong interest in website
+                            and mobile development. Currently, I’m working as a Fullstack Developer, where I’ve gained
+                            hands-on experience building fullstack web applications. I’ve participated in a MERN
+                            Bootcamp, which helped solidify my skills in both frontend and backend development. Besides
+                            web development, I’ve also developed proficiency in mobile development. I’m open to
+                            opportunities as a Frontend Developer, Backend Developer, Mobile Developer, or Fullstack
+                            Developer.
                         </p>
                     </div>
                     <div data-aos="fade-left" className="sm:p-10 mb-8">
                         {/* <div className="border-b-2 w-72 animate-spin h-[295px] border-t-2 border-t-[#00ff0d] border-b-[#00ff0d] absolute mt-3 border-r border-r-transparent border-l border-l-transparent rounded-full">
                         </div> */}
 
-                        <Image src={'/images/eka.png'} className="sm:w-72 w-44 overflow-hidden rounded-full" alt="my image" width={500} height={500} />
+                        <Image src={'/images/eka.png'} className="sm:w-72 w-44 overflow-hidden rounded-full"
+                               alt="my image" width={500} height={500}/>
                     </div>
                 </div>
             </div>
