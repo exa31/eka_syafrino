@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect } from "react";
-import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+import {useEffect} from "react";
+import {InfiniteMovingCards} from "./ui/infinite-moving-cards";
 import Aos from "aos";
 
 export default function LogoSkills() {
@@ -15,7 +15,8 @@ export default function LogoSkills() {
     return (
         <>
             <div id="skills" className="py-20 bg-[#0f172a]">
-                <div data-aos="fade-up" className="h-[30rem] mt-10 rounded-md flex flex-col antialiased bg-white dark:bg-[#0f172a] dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+                <div data-aos="fade-up"
+                     className="h-[30rem] mt-10 rounded-md flex flex-col antialiased bg-white dark:bg-[#0f172a] dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
                     <h1 className="text-6xl font-bold mb-10"><span className="text-[#00ff0d]">S</span>kills</h1>
                     <InfiniteMovingCards
                         items={Logo}
@@ -28,7 +29,6 @@ export default function LogoSkills() {
         </>
     );
 }
-
 
 
 const Logo = [
@@ -87,5 +87,33 @@ const Logo = [
     {
         name: "Laravel",
         logo: "/images/laravel.png",
+    },
+    {
+        name: "PostgreSQL",
+        logo: "/images/postgres.png",
+    },
+    {
+        name: "Pub/Sub",
+        logo: "/images/pubsub.png",
+    },
+    {
+        name: "Redis",
+        logo: "/images/redis.png",
+    },
+    {
+        name: "Python",
+        logo: "/images/python.png",
+    },
+    {
+        name: "Flask",
+        logo: "/images/flask.png",
+    },
+    {
+        name: "BigTable",
+        logo: "/images/bigtable.webp",
+    },
+    {
+        name: "Golang",
+        logo: "/images/golang.png",
     }
 ];
