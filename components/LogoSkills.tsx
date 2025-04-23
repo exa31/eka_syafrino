@@ -115,5 +115,9 @@ const Logo = [
     {
         name: "Golang",
         logo: "/images/golang.png",
+    },
+    {
+        name: "BigQuery",
+        logo: "/images/bigquery.png",
     }
 ];
