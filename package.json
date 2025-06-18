@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@tabler/icons-react": "^3.14.0",
     "aos": "^2.3.4",
+    "axios": "^1.10.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.5.2",
@@ -23,7 +25,8 @@
     "sharp": "^0.33.5",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
-    "typed.js": "^2.1.0"
+    "typed.js": "^2.1.0",
+    "winston": "^3.17.0"
   },
   "devDependencies": {
     "@types/aos": "^3.0.7",

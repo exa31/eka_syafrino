@@ -131,8 +131,8 @@ export default function Skills() {
                     <div className="flex justify-between">
                         <h3>EBlog</h3>
                         <div className="flex gap-4 ">
-                            <a target="_blank" className="hover:text-[#00ff0d] duration-300"
-                               href="https://blog-laravel-main-tpipmx.laravel.cloud/"><IoMdOpen/></a>
+                            {/*<a target="_blank" className="hover:text-[#00ff0d] duration-300"*/}
+                            {/*   href="https://blog-laravel-main-tpipmx.laravel.cloud/"><IoMdOpen/></a>*/}
                             <a target="_blank" className="hover:text-[#00ff0d] duration-300"
                                href="https://github.com/exa31/blog-laravel"><FaGithub/></a>
                         </div>

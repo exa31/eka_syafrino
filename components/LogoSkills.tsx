@@ -119,5 +119,17 @@ const Logo = [
     {
         name: "BigQuery",
         logo: "/images/bigquery.png",
+    },
+    {
+        name: "Java",
+        logo: "/images/java.webp",
+    },
+    {
+        name: "Spring Boot",
+        logo: "/images/spring_boot.png",
+    },
+    {
+        name: "Nestjs",
+        logo: "/images/nest.svg",
     }
 ];
