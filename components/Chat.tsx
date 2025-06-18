@@ -27,6 +27,14 @@ const Chat = () => {
             setChat(''); // Clear the input after sending
         } catch (error) {
             console.error('Error sending message:', error);
+            if (error instanceof Error) {
+                const dataTempMessages = [
+                    ...messages,
+                    chat, // Add user's message
+                    error.message // Add error message from the server
+                ]
+                setMessages(dataTempMessages); // Update messages state
+            }
         }
     }
 
