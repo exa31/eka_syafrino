@@ -24,7 +24,10 @@ const useChat = () => {
             return data;
         } catch (error) {
             console.error('Error sending message:', error);
-            return null;
+            if (error instanceof Error) {
+                throw new Error(error.message);
+            }
+            throw new Error('An unexpected error occurred while sending the message.');
         } finally {
             setLoading(false);
         }
